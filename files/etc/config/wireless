@@ -14,10 +14,10 @@ config wifi-iface 'default_radio0'
 	option ssid 'OpenWrt-2.4g'
 	option encryption 'psk-mixed'
 	option key '12345678'
-  option ieee80211k '1'
-  option ieee80211r '1'
-  option bss_transition "1"
-  option wnm_sleep_mode "1"
+	option ieee80211k '1'
+  	option ieee80211r '1'
+  	option bss_transition "1"
+  	option wnm_sleep_mode "1"
 
 config wifi-device 'radio1'
 	option type 'mac80211'
@@ -34,7 +34,7 @@ config wifi-iface 'default_radio1'
 	option ssid 'OpenWrt-5g'
 	option encryption 'psk-mixed'
 	option key '12345678'
-  option ieee80211k '1'
-  option ieee80211r '1'
-  option bss_transition "1"
-  option wnm_sleep_mode "1"
+  	option ieee80211k '1'
+  	option ieee80211r '1'
+  	option bss_transition "1"
+  	option wnm_sleep_mode "1"
